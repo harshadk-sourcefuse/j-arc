@@ -2,4 +2,4 @@
 ./bazel-j-arc
 ./bazel-out
 ./bazel-testlogs
-./.idea
+.idea
