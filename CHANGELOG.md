@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.3.0](https://github.com/harshadk-sourcefuse/j-arc/compare/v1.2.0...v1.3.0) (2023-04-17)
+
+
+### Features
+
+* **auth-service:** made changes in pom ([9ac7645](https://github.com/harshadk-sourcefuse/j-arc/commit/9ac764535c476caeb59b1060115464696a214edd))
+
 # [1.2.0](https://github.com/harshadk-sourcefuse/j-arc/compare/v1.1.0...v1.2.0) (2023-04-17)
 
 
