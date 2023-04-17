@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'services/auth-service/**'
 
 jobs:
   release:
@@ -25,4 +27,4 @@ jobs:
       - name: release
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
-        run: chmod +x ./prepare-release.sh && npx semantic-release
+        run: cd services/auth-service && chmod +x ./prepare-release.sh && npx semantic-release
